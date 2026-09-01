@@ -2583,6 +2583,61 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-media-bar/main/src/logo.png",
     "versions": [
       {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.10.zip",
+        "checksum": "ABBF6FDCABED3BF9E2C4EBE2645900BB",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.11.zip",
+        "checksum": "9FDC2DAE549087C7397865ACF88934ED",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.7.zip",
+        "checksum": "1E1E3B35E93576E8C8A96714B1146FD1",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.8.zip",
+        "checksum": "9635680C376F9DC156A909D9F9C723B3",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.9.zip",
+        "checksum": "A98DEC91A70D4C58A237376F6D55C947",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.12.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
         "targetAbi": "10.11.10.0",
